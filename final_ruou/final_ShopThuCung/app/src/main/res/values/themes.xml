@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Final_ShopThuCung" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Final_ShopThuCung.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Final_ShopThuCung.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Final_ShopThuCung.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="neumorphirmcard">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="neumorph_cornerSize">10dp</item>
+    </style>
+</resources>
